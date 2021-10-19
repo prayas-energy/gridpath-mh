@@ -1,0 +1,1 @@
+365 daily subproblems, 1 period 2030, linked, 15min timepoints, 15min lookahead

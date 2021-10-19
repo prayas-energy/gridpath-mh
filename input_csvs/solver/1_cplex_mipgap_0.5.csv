@@ -1,0 +1,3 @@
+solver,solver_option_name,solver_option_value
+cplex,lpmethod,4
+cplex,mipgap,0.005

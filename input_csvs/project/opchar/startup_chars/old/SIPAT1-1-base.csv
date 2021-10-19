@@ -1,0 +1,4 @@
+down_time_cutoff_hours,startup_plus_ramp_up_rate,startup_cost_per_mw
+10,0.004601626,24600
+48,0.003902439,30320
+72,0.001626016,52440

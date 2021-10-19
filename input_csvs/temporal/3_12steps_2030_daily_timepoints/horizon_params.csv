@@ -1,0 +1,13 @@
+subproblem_id,balancing_type_horizon,horizon,boundary
+1,month,203001,linear
+2,month,203002,linear
+3,month,203003,linear
+4,month,203004,linear
+5,month,203005,linear
+6,month,203006,linear
+7,month,203007,linear
+8,month,203008,linear
+9,month,203009,linear
+10,month,203010,linear
+11,month,203011,linear
+12,month,203012,linear
