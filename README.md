@@ -11,4 +11,4 @@ Model Year: 2029-30
 Base Year: 2017-18
 Transmission: copper plate
 Scenarios: RPO30, RPO50S1, RPO50S2, RPO50S3
-For a report on the model results, refer to https://www.prayaspune.org/peg/publications/item/511
+For a report on the model results, refer to https://www.prayaspune.org/peg/publications/item/510
