@@ -16,6 +16,7 @@ project/specified/fixed_cost,data_dependent,project_specified_fixed_cost_scenari
 ,data_dependent,project_new_binary_build_size_scenario_id,project_new_binary_build_size,simple,,0,0,,,,,project/new/binary_build_size
 ,data_dependent,project_capacity_group_requirement_scenario_id,project_capacity_group_requirements,simple,,0,0,,,,,project/capacity_groups/requirements
 ,data_dependent,project_capacity_group_scenario_id,project_capacity_groups,simple,,0,0,,,,,project/capacity_groups/projects
+,data_dependent,project_fuel_scenario_id,project_fuels,simple,,1,0,,,inputs_project_operational_chars,project_operational_chars_scenario_id,
 ,data_dependent,heat_rate_curves_scenario_id,project_heat_rate_curves,simple,,1,0,,,inputs_project_operational_chars,project_operational_chars_scenario_id,project/heat_rate_curves
 ,data_dependent,variable_om_curves_scenario_id,project_variable_om_curves,simple,,1,0,,,inputs_project_operational_chars,project_operational_chars_scenario_id,project/variable_om_curves
 project/opchar/startup_chars,data_dependent,startup_chars_scenario_id,project_startup_chars,simple,,1,0,,,inputs_project_operational_chars,project_operational_chars_scenario_id,
@@ -26,8 +27,8 @@ project/opchar,core,project_operational_chars_scenario_id,project_operational_ch
 project/availability,data_dependent,project_availability_scenario_id,project_availability,simple,,0,0,,,,,
 project/availability/endogenous,data_dependent,endogenous_availability_scenario_id,project_availability_endogenous,simple,,1,0,,,inputs_project_availability,project_availability_scenario_id,
 project/availability/exogenous,data_dependent,exogenous_availability_scenario_id,project_availability_exogenous,simple,,1,0,,,inputs_project_availability,project_availability_scenario_id,
-,fuels,fuel_scenario_id,project_fuels,simple,,0,0,,,,,fuels
-,fuels,fuel_price_scenario_id,project_fuel_prices,simple,,0,0,,,,,fuels/prices
+,fuels,fuel_scenario_id,fuels,simple,,0,0,,,,,fuels
+,fuels,fuel_price_scenario_id,fuel_prices,simple,,0,0,,,,,fuels/prices
 ,transmission,transmission_portfolio_scenario_id,transmission_portfolios,simple,,0,0,,,,,transmission/portfolios
 ,transmission,transmission_load_zone_scenario_id,transmission_load_zones,simple,,0,0,,,,,transmission/load_zones
 ,transmission,transmission_specified_capacity_scenario_id,transmission_specified_capacity,simple,,0,0,,,,,transmission/cap_specified
